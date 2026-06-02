@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "BMC Calculadora",
+    "slug": "bmc-calculadora",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": ["android", "ios", "web"],
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.bmc.calculadora",
+      "versionCode": 1
+    }
+  }
+}
