@@ -1,1 +1,5 @@
 node_modules
+bmc-frontend/node_modules
+bmc-backend/node_modules
+bmc-frontend/.expo
+bmc-frontend/.expo-shared

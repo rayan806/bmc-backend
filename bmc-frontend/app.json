@@ -4,16 +4,27 @@
     "slug": "bmc-calculadora",
     "version": "1.0.0",
     "sdkVersion": "54.0.0",
-    "platforms": ["android", "ios", "web"],
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "splash": {
       "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.bmc.calculadora",
       "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb8c89b6-c459-474f-a21a-c362f75b10dd"
+      }
     }
   }
 }
