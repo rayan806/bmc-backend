@@ -13,7 +13,7 @@ const conectarDB = async (opts = {}) => {
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
-            await mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+            await mongoose.connect(uri);
             console.log('🍃 ¡Conectado con éxito a MongoDB! (Base de datos lista)');
             return true;
         } catch (error) {
