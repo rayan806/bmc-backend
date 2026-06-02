@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY bmc-backend/package*.json ./
 
 # Instala dependencias de producción
-RUN npm ci --legacy-peer-deps --only=production
+RUN npm install --legacy-peer-deps --production
 
 # Copia el resto del backend
 COPY bmc-backend/ .
